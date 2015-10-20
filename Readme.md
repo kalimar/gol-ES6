@@ -28,4 +28,4 @@ module.exports = {
   }
 };
 ```
-
+8. Add your javascript files to the `src` directory. Your transpiled files will be in the `lib` so be sure to point to that in your html files.
