@@ -2,7 +2,7 @@
   "name": "gol-es6",
   "version": "1.0.0",
   "description": "Game of Life using ES6 modules",
-  "main": "bundle.js",
+  "main": "lib/bundle.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
     "build": "./node_modules/.bin/webpack"

@@ -13,13 +13,13 @@ I recommended cloning an empty repo from Github with the default Node `gitignore
  ```
  "build": "./node_modules/.bin/webpack"
  ```
-   
+
 7. Now we add a new file, webpack.config.js in your root directory
 ```
 module.exports = {
-  entry: './entry.js',
+  entry: './src/entry.js',
   output: {
-    filename: 'bundle.js'
+    filename: 'lib/bundle.js'
   },
   module: {
     loaders: [
